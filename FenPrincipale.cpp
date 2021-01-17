@@ -2,7 +2,7 @@
 
 FenPrincipale::FenPrincipale(FenCodeGenere *fenetreCodeGenere) : QWidget()
 {
-  this->setWindowIcon(QIcon("icone.png"));
+  this->setWindowIcon(QIcon("icone.ico"));
   this->setWindowTitle("Zero Class Generator");
 
   m_layoutPrincipal = new QVBoxLayout;
