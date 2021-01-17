@@ -20,7 +20,7 @@ doivent préalablement être installés):
 qmake -project
 sudo vim ${PWD##*/}.pro
 ```
-Dans le fichier ouvert par Vim, ajouter la ligne `QT += gui widgets`, puis quitter
+Puis dans le fichier ouvert par Vim, ajouter la ligne `QT += gui widgets`, puis quitter
 le fichier Vim (Echap puis :wq) pour entrer les commandes suivantes dans la fenêtre de commande Linux :
 ```
 qmake ${PWD##*/}.pro
